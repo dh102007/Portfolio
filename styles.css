@@ -200,6 +200,52 @@ body {
   color: #2563eb;
   font-size: 1.1rem;
 }
+.certifications {
+  padding: 80px 0;
+  background: rgb(228, 228, 228);
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certification-card {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 2rem;
+  border: 2px solid #e2e8f0;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.certification-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.certification-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 2px solid #e0e7ff;
+  transition: all 0.3s ease;
+    font-size: 2rem;
+}
+.certification-title {
+  font-size: 1.4rem;
+  color: #1e293b;
+}
+
 
 .contact-item-about a {
   color: #374151;
