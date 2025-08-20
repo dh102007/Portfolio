@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>김도현 - 포트폴리오</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <h2>Portfolio</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">홈</a></li>
+                    <li><a href="#about" class="nav-link">소개</a></li>
+                    <li><a href="#projects" class="nav-link">프로젝트</a></li>
+                    <li>
+                        <a href="https://github.com/dh102007" class="nav-link">
+                            <i class="fab fa-github"></i>GitHub 보기
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">안녕하세요, <span class="highlight">김도현</span>입니다</h1>
+                    <p class="hero-description">
+                        사용자 중심의 웹 애플리케이션을 만들고 있습니다. JavaScript, React, Next.js 등 기술들을 배우고
+                        있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">소개</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="contact-item-about">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#">kimdh102007@gmail.com</a>
+                        </div>
+                        <div class="contact-item-about">
+                            <i class="fas fa-phone"></i>
+                            <a href="#">010-4100-7901</a>
+                        </div>
+                        <h3>개발자 김도현</h3>
+                        <p>
+                            사용자 경험을 최우선으로 생각하며 개발하고 있습니다. 새로운 기술을 배우는 것을 좋아하고,
+                            팀과의 협업을 통해 더 나은 결과물을 만들어내는 것에 열정을 가지고 있습니다.
+                        </p>
+                        <div class="skills">
+                            <h4>주요 기술 스택</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">html</span>
+                                <span class="skill-tag">css</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="profile-image">
+                            <img src="./img/1700653247776.jpg" alt="Profile" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">자격증 및 인증</h2>
+                </div>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fa-solid fa-file-excel"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3 class="certification-title">ITQ 엑셀</h3>
+                            <p class="certification-date">2023.06.29 취득</p>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="certification-content">
+                            <h3 class="certification-title">지도제작기능사</h3>
+                            <p class="certification-date">2024.09.11 취득</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">프로젝트</h2>
+                    <p class="section-subtitle">
+                        Next.js 템플릿을 기반으로, 프로젝트 소개용 홈페이지를 제작했습니다. Next.js, Tailwind CSS, MDX를
+                        활용하여 구성하였습니다.
+                    </p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://kimdohyun-study-blog.vercel.app/" class="btn btn-primary"
+                        >프로젝트 사이트 바로가기</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 본 사이트는 넥슨 메이플스토리 공식 글꼴 ‘Maplestory’ 폰트를 사용하고 있습니다.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
